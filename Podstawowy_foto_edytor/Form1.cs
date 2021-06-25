@@ -100,7 +100,6 @@ namespace Podstawowy_foto_edytor
             float changebrightness = trackBar6.Value / 255.0f;
 
             int val = (int)(changebrightness * 255);
-
             label10.Text = val.ToString();
 
             reload();
